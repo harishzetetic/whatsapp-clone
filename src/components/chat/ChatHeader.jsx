@@ -36,7 +36,7 @@ const ChatHeader = ({person}) => {
         <Box>
             <Name>{person.name}</Name>
             <Status>{activeUsers?.find(user => user.sub === person.sub) ? 'Online' : 'Offline'}</Status>
-        </Box>
+        </Box> 
         <RightContainer>
             <Search />
             <MoreVert />
